@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress</title>
+    <link rel="stylesheet" href="Dress Shop.css">
+
+    
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        
+
+</head>
+
+<script>
+    function addCart(name,price,image)
+    {let cart=JSON.parse(localStorage.getItem("cart"))||[];
+    
+    cart.push({name:name,price:price,image:image});
+    
+    localStorage.setItem("cart",JSON.stringify(cart));
+    window.location="Cart.html";
+    }
+</script>
+
+<body>
+
+    
+    <header>
+        <a href="#" class="logo">Dress Shop</a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="Review.html">Review</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+ <section class="products" id="products">
+
+    <h1 class="heading">
+        Our <span>Button front dress</span>
+    </h1>
+
+
+    <div class="container">
+
+<!-- CARD 1 -->
+
+    <div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+
+    </div>
+
+    <img src="Picture Folder/Button front dress/Button 1.jpg">
+        <h3>Button front dress</h3>
+        <p>Easy to wear and remove</p>
+
+    <button
+        onclick="addCart('Button front dress',30,'Picture Folder/Button front dress/Button 1.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 2 -->
+
+    <div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Button front dress/Button 2.jpg">
+        <h3>Button front dress</h3>
+        <p>Adjustable and comfortable fit</p>
+
+    <button
+        onclick="addCart('Button front dress',35,'Picture Folder/Button front dress/Button 2.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+
+<!-- CARD 3 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Button front dress/Button 3.jpg">
+        <h3>Button front dress</h3>
+        <p>Gives a neat appearance</p>
+
+    <button
+        onclick="addCart('Button front dress',30,'Picture Folder/Button front dress/Button .jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+
+
+<!-- CARD 4 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Button front dress/Button 4.jpg">
+        <h3>Button front dress</h3>
+        <p>Suitable for everyday fashion</p>
+
+    <button
+        onclick="addCart('Button front dress',30,'Picture Folder/Button front dress/Button 4.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+<!-- CARD 5 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Button front dress/Button 5.jpg">
+        <h3>Button front dress</h3>
+        <p>Creates a timeless style</p>
+
+   <button
+        onclick="addCart('Button front dress',34,'Picture Folder/Button front dress/Button 5.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 6 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Button front dress/Button 6.jpg">
+        <h3>Button front dress</h3>
+        <p>Easy to pair with accessories</p>
+
+    <button
+        onclick="addCart('Button front dress',25,'Picture Folder/Button front dress/Button 16.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 7 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Button front dress/Button 7.jpg">
+        <h3>Button front dress</h3>
+        <p>Comfortable throughout the day</p>
+
+    <button
+        onclick="addCart('Button front dress',35,'Picture Folder/Button front dress/Button 7.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 8 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Button front dress/Button 8.jpg">
+        <h3>Button front dress</h3>
+        <p>Provides practical styling</p>
+
+   <button
+        onclick="addCart('Button front dress',39.99,'Picture Folder/Button front dress/Button 8.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 9 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Button front dress/Button 9.jpg">
+        <h3>Button front dress</h3>
+        <p>Suitable for casual occasions</p>
+
+    <button
+        onclick="addCart('Button front dress',33.55,'Picture Folder/Button front dress/Button 9.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 10 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Button front dress/Button 10.jpg">
+        <h3>Button front dress</h3>
+        <p>Makes dressing convenient</p>
+
+    <button
+        onclick="addCart('Button front dress',30,'Picture Folder/Button front dress/Button 10.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 11 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Button front dress/Button 11.jpg">
+        <h3>Button front dress</h3>
+        <p>Offers a stylish appearance</p>
+
+    <button
+        onclick="addCart('Button front dress',38,'Picture Folder/Button front dress/Button 11.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 12 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Button front dress/Button 12.jpg">
+        <h3>Button front dress</h3>
+        <p>Creates a simple elegant look</p>
+
+    <button
+        onclick="addCart('Button front dress',38,'Picture Folder/Button front dress/Button 12.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 13 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Button front dress/Button 13.jpg">
+        <h3>Button front dress</h3>
+        <p>Comfortable for movement</p>
+
+    <button
+        onclick="addCart('Button front dress',32.99,'Picture Folder/Button front dress/Button 13.jpg')">
+        Add To Cart
+    </button>
+</div>
+
+<!-- CARD 14 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Button front dress/Button 14.jpg">
+        <h3>Button front dress</h3>
+        <p>Works with different fashion styles</p>
+
+    <button
+        onclick="addCart('Button front dress',37,'Picture Folder/Button front dress/Button 14.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 15 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Button front dress/Picture Folder/Button front dress/Button 15.jpg">
+        <h3>Button front dress</h3>
+        <p>Suitable for all seasons</p>
+
+    <button
+        onclick="addCart('Button front dress',34,'Picture Folder/Button front dress/Button 15.jpg')">
+        Add To Cart
+    </button>
+</div>
+
+<!-- CARD 16 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Button front dress/Button 16.jpg">
+        <h3>Button front dress</h3>
+        <p>Creates a clean and modern outfit</p>
+
+    <button
+        onclick="addCart('Button front dress',35,'Picture Folder/Button front dress/Button 16.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+
+</div>
+
+</section>
+    <script>
+    let hearts =document.querySelectorAll(".heart");
+    hearts.forEach(btn=>{btn.addEventListener("click",()=>{btn.classList.toggle("active");
+
+    });
+});
+</script>
+
+<!-- Footer -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+            <h2>Dress Shop</h2>
+
+            <p>
+                Thank you for visiting Anithaa's Dress Shop.
+                Discover beautiful dresses made to make every moment special.
+            </p>
+        </div>
+
+
+        <div class="footer-box">
+
+            <h2>Useful Links</h2>
+
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="products.html">Products</a>
+            <a href="Cart.html">Cart</a>
+            <a href="Checkout.html">Checkout</a>
+        </div>
+
+
+        <div class="footer-box">
+
+            <h2>Follow Us</h2>
+
+           <div class="social-icons">
+
+                <a href="https://www.facebook.com/share/1GzmeNLVN8/?mibextid=wwXIfr" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="https://www.instagram.com/oeusonitha?igsh=dGV1MG0xNm9peTN4&utm_source=qr" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://www.tiktok.com/@jualie.yeee?_r=1&_t=ZS-97O2UmBgb2N" target="_blank">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 Anithaa's Dress Shop | All Rights Reserved
+    </p>
+
+</footer>
+
+</body>
+</html>

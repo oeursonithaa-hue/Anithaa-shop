@@ -1,0 +1,401 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress</title>
+    <link rel="stylesheet" href="Dress Shop.css">
+
+    
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        
+
+</head>
+
+<script>
+    function addCart(name,price,image)
+    {let cart=JSON.parse(localStorage.getItem("cart"))||[];
+    
+    cart.push({name:name,price:price,image:image});
+    
+    localStorage.setItem("cart",JSON.stringify(cart));
+    window.location="cart.html";
+    }
+</script>
+
+<body>
+
+    
+    <header>
+        <a href="#" class="logo">Dress Shop</a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="Review.html">Review</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+ <section class="products" id="products">
+
+    <h1 class="heading">
+        Our <span>Strap a-line Dresses</span>
+    </h1>
+
+
+    <div class="container">
+
+<!-- CARD 1 -->
+
+    <div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+
+    </div>
+
+    <img src="Picture Folder/The strap a-line dress/The strap a-line dress 1.jpg">
+        <h3>Strap a-line Dresses</h3>
+        <p>Comfortable and easy to wear</p>
+
+    <button
+        onclick="addCart('Strap a-line Dresses',30,'Picture Folder/The strap a-line dress/The strap a-line dress 1.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 2 -->
+
+    <div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/The strap a-line dress/The strap a-line dress 2.jpg">
+        <h3>Strap a-line Dresses</h3>
+        <p>Creates a flattering silhouette</p>
+
+    <button
+        onclick="addCart('Strap a-line Dresses',32,'Picture Folder/The strap a-line dress/The strap a-line dress 2.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+
+<!-- CARD 3 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/The strap a-line dress/The strap a-line dress 3.jpg">
+        <h3>Strap a-line Dresses</h3>
+        <p>Allows comfortable movement</p>
+
+    <button
+        onclick="addCart('Strap a-line Dresses',30,'Picture Folder/The strap a-line dress/The strap a-line dress 3.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+
+
+<!-- CARD 4 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/The strap a-line dress/The strap a-line dress 4.jpg">
+        <h3>Strap a-line Dresses</h3>
+        <p>Suitable for many body types</p>
+
+    <button
+        onclick="addCart('Strap a-line Dresses',30,'Picture Folder/The strap a-line dress/The strap a-line dress 4.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+<!-- CARD 5 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/The strap a-line dress/The strap a-line dress 5.jpg">
+        <h3>Strap a-line Dresses</h3>
+        <p>Gives a simple elegant style</p>
+
+   <button
+        onclick="addCart('Strap a-line Dresses',32,'TPicture Folder/The strap a-line dress/The strap a-line dress 5.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 6 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/The strap a-line dress/The strap a-line dress 6.jpg">
+        <h3>Strap a-line Dresses</h3>
+        <p>Lightweight and breathable</p>
+
+    <button
+        onclick="addCart('Strap a-line Dresses',30,'Picture Folder/The strap a-line dress/The strap a-line dress 6.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 7 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/The strap a-line dress/The strap a-line dress 7.jpg">
+        <h3>Strap a-line Dresses</h3>
+        <p>Easy to style for occasions</p>
+
+    <button
+        onclick="addCart('Strap a-line Dresses',30,'Picture Folder/The strap a-line dress/The strap a-line dress 7.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 8 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/The strap a-line dress/The strap a-line dress 8.jpg">
+        <h3>Strap a-line Dresses</h3>
+        <p>Makes the outfit balanced</p>
+
+   <button
+        onclick="addCart('Strap a-line Dresses',22,'Picture Folder/The strap a-line dress/The strap a-line dress 8.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 9 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/The strap a-line dress/The strap a-line dress 9.jpg">
+        <h3>Strap a-line Dresses</h3>
+        <p>Suitable for everyday wear</p>
+
+    <button
+        onclick="addCart('Strap a-line Dresses',24,'TPicture Folder/The strap a-line dress/The strap a-line dress 9.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 10 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/The strap a-line dress/The strap a-line dress 10.jpg">
+        <h3>Strap a-line Dresses</h3>
+        <p>Comfortable for long use</p>
+
+    <button
+        onclick="addCart('Strap a-line Dresses',35,'Picture Folder/The strap a-line dress/The strap a-line dress 10.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 11 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/The strap a-line dress/The strap a-line dress 11.jpg">
+        <h3>Strap a-line Dresses</h3>
+        <p>Creates a graceful appearance</p>
+
+    <button
+        onclick="addCart('Strap a-line Dresses',30,'Picture Folder/The strap a-line dress/The strap a-line dress 11.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 12 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/The strap a-line dress/The strap a-line dress 12.jpg">
+        <h3>Strap a-line Dresses</h3>
+        <p>Gives a fashionable look</p>
+
+    <button
+        onclick="addCart('Strap a-line Dresses',25,'Picture Folder/The strap a-line dress/The strap a-line dress 12.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 13 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/The strap a-line dress/The strap a-line dress 13.jpg">
+        <h3>Strap a-line Dresses</h3>
+        <p>Matches different accessories</p>
+
+    <button
+        onclick="addCart('Strap a-line Dresses',30,'Picture Folder/The strap a-line dress/The strap a-line dress 13.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 14 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/The strap a-line dress/The strap a-line dress 14.jpg">
+        <h3>Strap a-line Dresses</h3>
+        <p>Creates a soft and feminine style</p>
+
+    <button
+        onclick="addCart('Strap a-line Dresses',30,'Picture Folder/The strap a-line dress/The strap a-line dress 14.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 15 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/The strap a-line dress/The strap a-line dress 15.jpg">
+        <h3>Strap a-line Dresses</h3>
+        <p>Works for casual and formal wear</p>
+
+    <button
+        onclick="addCart('Strap a-line Dresses',32,'Picture Folder/The strap a-line dress/The strap a-line dress 15.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 16 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/The strap a-line dress/The strap a-line dress 16.jpg">
+        <h3>Strap a-line Dresses</h3>
+        <p>Makes the wearer feel confident</p>
+
+   <button
+        onclick="addCart('Strap a-line Dresses',30,'Picture Folder/The strap a-line dress/The strap a-line dress 16.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+
+</div>
+
+</section>
+    <script>
+    let hearts =document.querySelectorAll(".heart");
+    hearts.forEach(btn=>{btn.addEventListener("click",()=>{btn.classList.toggle("active");
+
+    });
+});
+</script>
+
+<!-- Footer -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+            <h2>Dress Shop</h2>
+
+            <p>
+                Thank you for visiting Anithaa's Dress Shop.
+                Discover beautiful dresses made to make every moment special.
+            </p>
+        </div>
+
+
+        <div class="footer-box">
+
+            <h2>Useful Links</h2>
+
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="products.html">Products</a>
+            <a href="Cart.html">Cart</a>
+            <a href="Checkout.html">Checkout</a>
+        </div>
+
+
+        <div class="footer-box">
+
+            <h2>Follow Us</h2>
+
+            <div class="social-icons">
+
+                <a href="https://www.facebook.com/share/1GzmeNLVN8/?mibextid=wwXIfr" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="https://www.instagram.com/oeusonitha?igsh=dGV1MG0xNm9peTN4&utm_source=qr" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://www.tiktok.com/@jualie.yeee?_r=1&_t=ZS-97O2UmBgb2N" target="_blank">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 Anithaa's Dress Shop | All Rights Reserved
+    </p>
+
+</footer>
+
+</body>
+</html>

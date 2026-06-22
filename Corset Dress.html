@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress</title>
+    <link rel="stylesheet" href="Dress Shop.css">
+
+    
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        
+
+</head>
+
+<script>
+    function addCart(name,price,image)
+    {let cart=JSON.parse(localStorage.getItem("cart"))||[];
+    
+    cart.push({name:name,price:price,image:image});
+    
+    localStorage.setItem("cart",JSON.stringify(cart));
+    window.location="cart.html";
+    }
+</script>
+
+<body>
+
+    
+    <header>
+        <a href="#" class="logo">Dress Shop</a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="Review.html">Review</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+ <section class="products" id="products">
+
+    <h1 class="heading">
+        Our <span>Coreset Dresses</span>
+    </h1>
+
+
+    <div class="container">
+
+<!-- CARD 1 -->
+
+    <div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+
+    </div>
+
+    <img src="Picture Folder/Corset dress/Corset Dress1.jpg">
+        <h3>Corset Dress</h3>
+
+    <p>Enhances and defines the waist shape</p>
+
+    <button
+        onclick="addCart('Corset Dress',18,'Picture Folder/Corset dress/Corset Dress1.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 2 -->
+
+    <div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Corset dress/Corset Dress2.jpg">
+        <h3>Corset Dress</h3>
+        <p>Creates a flattering body silhouette</p>
+
+    <button
+        onclick="addCart('Corset Dress',19,'Picture Folder/Corset dress/Corset Dress2.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+
+<!-- CARD 3 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Corset dress/Corset Dress3.jpg">
+        <h3>Corset Dress</h3>
+        <p>Gives an elegant and luxurious appearance</p>
+
+    <button
+        onclick="addCart('Corset Dress',19.50,'Picture Folder/Corset dress/Corset Dress3.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+
+
+<!-- CARD 4 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Corset dress/Corset Dress4.jpg">
+        <h3>Corset Dress</h3>
+        <p>Suitable for formal and special occasions</p>
+
+    <button
+        onclick="addCart('Corset Dress',22,'Picture Folder/Corset dress/Corset Dress4.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+<!-- CARD 5 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Corset dress/Corset Dress5.jpg">
+        <h3>Corset Dress</h3>
+        <p>Adds confidence while wearing</p>
+       <button
+        onclick="addCart('Corset Dress',24,'Picture Folder/Corset dress/Corset Dress5.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 6 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Corset dress/Corset Dress6.jpg">
+        <h3>Corset Dress</h3>
+        <p>Provides a fashionable classic style</p>
+
+    <button
+        onclick="addCart('Corset Dress',20,'Picture Folder/Corset dress/Corset Dress6.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 7 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Corset dress/Corset Dress7.jpg">
+        <h3>Corset Dress</h3>
+        <p>Makes the outfit look more structured</p>
+
+    <button
+        onclick="addCart('Corset Dress',20,'CPicture Folder/Corset dress/Corset Dress7.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 8 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Corset dress/Corset Dress8.jpg">
+        <h3>Corset Dress</h3>
+        <p>Highlights natural body curves</p>
+
+    <button
+        onclick="addCart('Corset Dress',20,'Picture Folder/Corset dress/Corset Dress8.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 9 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Corset dress/Corest Dress 9.jpg">
+        <h3>Corset Dress</h3>
+        <p>Can be styled with different accessories</p>
+
+    <button
+        onclick="addCart('Corset Dress',21,'Picture Folder/Corset dress/Corset Dress9.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 10 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Corset dress/Corset Dress10.jpg">
+        <h3>Corset Dress</h3>
+        <p>Available in modern and vintage looks</p>
+
+    <button
+        onclick="addCart('Corset Dress',23,'Picture Folder/Corset dress/Corset Dress10.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 11 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Corset dress/Corset Dress11.jpg">
+        <h3>Corset Dress</h3>
+        <p>Creates a stylish and graceful outfit</p>
+
+    <button
+        onclick="addCart('Corset Dress',23,'Picture Folder/Corset dress/Corset Dress11.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 12 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Corset dress/Corset Dress12.jpg">
+        <h3>Corset Dress</h3>
+        <p>Works well for evening events</p>
+
+    <button
+        onclick="addCart('Corset Dress',25,'Picture Folder/Corset dress/Corset Dress12.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 13 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Corset dress/Corset Dress13.jpg">
+        <h3>Corset Dress</h3>
+        <p>Helps create a balanced appearance</p>
+
+    <button
+        onclick="addCart('Corset Dress',25,'Picture Folder/Corset dress/Corset Dress13.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 14 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Corset dress/Corest Dress 14.jpg">
+        <h3>Corset Dress</h3>
+        <p>Comfortable when fitted correctly</p>
+
+    <button
+        onclick="addCart('Corset Dress',26,'Picture Folder/Corset dress/Corset Dress14.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 15 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Corset dress/Corset Dress15.jpg">
+        <h3>Corset Dress</h3>
+        <p>Suitable for photos and celebrations</p>
+
+    <button
+        onclick="addCart('Corset Dress',26,'Picture Folder/Corset dress/Corset Dress15.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 16 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Corset dress/Corset Dress16.jpg">
+        <h3>Corset Dress</h3>
+        <p>Makes the wearer stand out beautifully</p>
+
+    <button
+        onclick="addCart('Corset Dress',27,'Picture Folder/Corset dress/Corset Dress16.jpg')">
+        Add To Cart
+    </button>
+
+
+</div>
+
+
+</div>
+
+</section>
+    <script>
+    let hearts =document.querySelectorAll(".heart");
+    hearts.forEach(btn=>{btn.addEventListener("click",()=>{btn.classList.toggle("active");
+
+    });
+});
+</script>
+
+<!-- Footer -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+            <h2>Dress Shop</h2>
+
+            <p>
+                Thank you for visiting Anithaa's Dress Shop.
+                Discover beautiful dresses made to make every moment special.
+            </p>
+        </div>
+
+
+        <div class="footer-box">
+
+            <h2>Useful Links</h2>
+
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="products.html">Products</a>
+            <a href="Cart.html">Cart</a>
+            <a href="Checkout.html">Checkout</a>
+
+        </div>
+
+
+        <div class="footer-box">
+
+            <h2>Follow Us</h2>
+
+           <div class="social-icons">
+
+                <a href="https://www.facebook.com/share/1GzmeNLVN8/?mibextid=wwXIfr" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="https://www.instagram.com/oeusonitha?igsh=dGV1MG0xNm9peTN4&utm_source=qr" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://www.tiktok.com/@jualie.yeee?_r=1&_t=ZS-97O2UmBgb2N" target="_blank">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 Anithaa's Dress Shop | All Rights Reserved
+    </p>
+
+</footer>
+
+</body>
+</html>

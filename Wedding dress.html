@@ -1,0 +1,399 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress</title>
+    <link rel="stylesheet" href="Dress Shop.css">
+
+    
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        
+
+</head>
+<script>
+    function addCart(name,price,image)
+    {let cart=JSON.parse(localStorage.getItem("cart"))||[];
+    
+    cart.push({name:name,price:price,image:image});
+    
+    localStorage.setItem("cart",JSON.stringify(cart));
+    window.location="cart.html";
+    }
+</script>
+
+<body>
+
+    
+    <header>
+        <a href="#" class="logo">Dress Shop</a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="Review.html">Review</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+ <section class="products" id="products">
+
+    <h1 class="heading">
+        Our <span>Wedding Dresses</span>
+    </h1>
+    <div class="container">
+
+<!-- CARD 1 -->
+
+    <div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+
+    </div>
+
+    <img src="Picture Folder/Wedding dress/Wedding dress 1.jpg">
+        <h3>Wedding dresses</h3>
+
+    <p>Creates a beautiful bridal appearance</p>
+
+   <button
+        onclick="addCart('Wedding dresses',50,'Picture Folder/Wedding dress/Wedding dress 1.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 2 -->
+
+    <div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Wedding dress/Wedding dress 2.jpg">
+        <h3>Wedding dresses</h3>
+        <p>Makes special moments memorable</p>
+
+    <button
+        onclick="addCart('Wedding dresses',55,'Picture Folder/Wedding dress/Wedding dress 2.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+
+<!-- CARD 3 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Wedding dress/Wedding dress 3.jpg">
+        <h3>Wedding dresses</h3>
+        <p>Makes special moments memorable</p>
+    <button
+        onclick="addCart('Wedding dresses',56,'Picture Folder/Wedding dress/Wedding dress 3.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+
+
+<!-- CARD 4 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Wedding dress/Wedding dress 4.jpg">
+        <h3>Wedding dresses</h3>
+        <p>Highlights beauty and confidence</p>
+
+    <button
+        onclick="addCart('Wedding dresses',80,'Picture Folder/Wedding dress/Wedding dress 4.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+<!-- CARD 5 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Wedding dress/Wedding dress 5.jpg">
+        <h3>Wedding dresses</h3>
+        <p>Designed for comfort and elegance</p>
+
+    <button
+        onclick="addCart('Wedding dresses',70,'WPicture Folder/Wedding dress/Wedding dress 5.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 6 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Wedding dress/Wedding dress 6.jpg">
+        <h3>Wedding dresses</h3>
+        <p>Suitable for wedding photography</p>
+
+    <button
+        onclick="addCart('Wedding dresses',50,'Picture Folder/Wedding dress/Wedding dress 6.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 7 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Wedding dress/Wedding dress 7.jpg">
+        <h3>Wedding dresses</h3>
+        <p>Creates a graceful silhouette</p>
+
+    <button
+        onclick="addCart('Wedding dresses',90,'Picture Folder/Wedding dress/Wedding dress 7.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 8 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Wedding dress/Wedding dress 8.jpg">
+        <h3>Wedding dresses</h3>
+        <p>Makes the bride stand out</p>
+
+    <button
+        onclick="addCart('Wedding dresses',110,'Picture Folder/Wedding dress/Wedding dress 8.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 9 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Wedding dress/Wedding dress 9.jpg">
+        <h3>Wedding dresses</h3>
+        <p>Offers romantic styling</p>
+
+    <button
+        onclick="addCart('Wedding dresses',80,'Picture Folder/Wedding dress/Wedding dress 9.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 10 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Wedding dress/Wedding dress 10.jpg">
+        <h3>Wedding dresses</h3>
+        <p>Available in many designs</p>
+
+    <button
+        onclick="addCart('Wedding dresses',90,'Picture Folder/Wedding dress/Wedding dress 10.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 11 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Wedding dress/Wedding dress 11.jpg">
+        <h3>Wedding dresses</h3>
+        <p>Creates timeless memories</p>
+
+    <button
+        onclick="addCart('Wedding dresses',100,'Picture Folder/Wedding dress/Wedding dress 11.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 12 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Wedding dress/Wedding dress 12.jpg">
+        <h3>Wedding dresses</h3>
+        <p>Adds charm to the ceremony</p>
+
+    <button
+        onclick="addCart('Wedding dresses',99.99,'Picture Folder/Wedding dress/Wedding dress 12.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 13 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Wedding dress/Wedding dress 13.jpg">
+        <h3>Wedding dresses</h3>
+        <p>Gives a premium appearance</p>
+
+    <button
+        onclick="addCart('Wedding dresses',87.50,'Picture Folder/Wedding dress/Wedding dress 13.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 14 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Wedding dress/Wedding dress 14.jpg">
+        <h3>Wedding dresses</h3>
+        <p>Matches wedding themes</p>
+
+    <button
+        onclick="addCart('Wedding dresses',80.50,'Picture Folder/Wedding dress/Wedding dress 14.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 15 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Wedding dress/Wedding dress 15.jpg">
+        <h3>Wedding dresses</h3>
+        <p>Makes the event more special</p>
+
+    <button
+        onclick="addCart('Wedding dresses',90,'Picture Folder/Wedding dress/Wedding dress 15.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+<!-- CARD 16 -->
+<div class="card">
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+
+    <img src="Picture Folder/Wedding dress/Wedding dress 16.jpg">
+        <h3>Wedding dresses</h3>
+        <p>Creates a dream wedding look</p>
+
+    <button
+        onclick="addCart('Wedding dresses',120,'Picture Folder/Wedding dress/Wedding dress 16.jpg')">
+        Add To Cart
+    </button>
+
+</div>
+
+
+</div>
+
+</section>
+    <script>
+    let hearts =document.querySelectorAll(".heart");
+    hearts.forEach(btn=>{btn.addEventListener("click",()=>{btn.classList.toggle("active");
+
+    });
+});
+</script>
+
+<!-- Footer -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+            <h2>Dress Shop</h2>
+
+            <p>
+                Thank you for visiting Anithaa's Dress Shop.
+                Discover beautiful dresses made to make every moment special.
+            </p>
+        </div>
+
+
+        <div class="footer-box">
+
+            <h2>Useful Links</h2>
+
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="products.html">Products</a>
+            <a href="Cart.html">Cart</a>
+            <a href="Checkout.html">Checkout</a>
+
+        </div>
+
+
+        <div class="footer-box">
+
+            <h2>Follow Us</h2>
+
+            <div class="social-icons">
+
+                <a href="https://www.facebook.com/share/1GzmeNLVN8/?mibextid=wwXIfr" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="https://www.instagram.com/oeusonitha?igsh=dGV1MG0xNm9peTN4&utm_source=qr" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://www.tiktok.com/@jualie.yeee?_r=1&_t=ZS-97O2UmBgb2N" target="_blank">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 Anithaa's Dress Shop | All Rights Reserved
+    </p>
+
+</footer>
+
+</body>
+</html>
